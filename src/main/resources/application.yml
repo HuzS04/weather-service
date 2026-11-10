@@ -1,0 +1,8 @@
+# port the app runs on (default would be 8080)
+server:
+  port: 8081
+
+# app name - shows in logs as [weather-service]
+spring:
+  application:
+    name: weather-service
