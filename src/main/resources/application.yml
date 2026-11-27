@@ -6,3 +6,8 @@ server:
 spring:
   application:
     name: weather-service
+
+# Third-party API base URLs
+open-meteo:
+  geocoding:
+    base-url: https://geocoding-api.open-meteo.com
